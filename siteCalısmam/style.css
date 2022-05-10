@@ -1,0 +1,53 @@
+header, footer {
+    display: flex;
+    background-color: azure;
+    padding: 35px;
+    justify-content:space-between;
+    border: 3px solid black;
+    
+}
+    footer p{
+        margin-top: 0;
+    }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.Anasayfa{
+    background-color: aqua;
+}
+.Urunler{
+    background-color: beige;
+}
+
+.Hakkımızda{
+    background-color: blue;
+}
+a :hover{
+  text-decoration: ;
+}
+
+.Oneriler{
+    background-color: brown;
+}
+.Anasayfa img, .Oneriler img{
+    width: 50%;
+    height: 50%;
+
+}
+.resimler{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.Hakkımızda ul li{
+    margin-bottom: 10px;
+    background-color: indianred;
+    padding: 2rem;
+    border: 2px solid silver;
+    border-radius: 10px;
+}
+
+

@@ -1,0 +1,138 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),(url(../siteCalısmam/img/market.jpg));
+    background-position:center;
+    background-size: cover;
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+
+    
+}
+
+.navbar{
+    height: 12%;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo{
+    width: 50%;
+    cursor: pointer;
+}
+
+.menu-icon{
+    width: 30px;
+    cursor:pointer;
+    margin-left: 40px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 60px;
+
+
+}
+
+nav ul li a{
+
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+
+}
+
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+
+}
+
+.col{
+    flex-basis: 50%;
+
+}
+
+h1{
+    color: chocolate;
+    font-size: 100px;
+
+}
+
+p{
+    color: violet;
+    font-size: 11px;
+    line-height: 15px;
+
+}
+
+button{
+    width: 180px;
+    color: sienna;
+    font-size: 15px;
+    padding: 12px 0;
+    background: black;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+
+}
+
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 20px;
+    padding: 15px 45px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 35px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.25s;
+
+}
+
+.card1{
+    background-image: url(../3.gunfree/img/pattern1.jpg);
+
+}
+
+.card2{
+    background-image: url(../3.gunfree/img/pattern2.jpg);
+
+}
+.card3{
+    background-image: url(../3.gunfree/img/pattern3.jpg);
+
+}
+.card4{
+    background-image: url(../3.gunfree/img/pattern4.jpg);
+
+}
+
+.card:hover {
+    transform: translateY(-10px);
+
+}
+h5{
+    color: chartreuse;
+    text-shadow: 0 0 5px #999;
+
+}
+
+.card p{
+    text-shadow: 0 0 15px #000;
+font-size: 8px;
+}
